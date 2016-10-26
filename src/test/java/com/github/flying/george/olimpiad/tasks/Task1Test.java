@@ -1,4 +1,4 @@
-package com.github.flying.george.olimpiad.task1;
+package com.github.flying.george.olimpiad.tasks;
 
 import org.junit.Assert;
 import org.junit.Test;

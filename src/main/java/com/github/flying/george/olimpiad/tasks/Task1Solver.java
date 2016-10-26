@@ -1,9 +1,9 @@
-package com.github.flying.george.olimpiad.task1;
+package com.github.flying.george.olimpiad.tasks;
 
 /**
  * Created by george.
  */
-public class Task1Solver {
+public class Task1Solver implements TaskSolver {
     private final int ilya;
     private final int alesha;
     private final int dobrynia;
@@ -37,5 +37,12 @@ public class Task1Solver {
 
     public int getDobrynia() {
         return dobrynia;
+    }
+
+    @Override
+    public String solve() {
+        return String.valueOf(alesha)
+                + " " + String.valueOf(dobrynia)
+                + " " + String.valueOf(ilya);
     }
 }
